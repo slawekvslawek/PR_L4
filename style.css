@@ -1,0 +1,50 @@
+body {
+    background-color: hotpink;
+}
+
+p {
+    font-size: 20px;
+}
+
+.lewy {
+    float: left;
+    width: 50%;
+}
+
+.prawy {
+    width: 50%;
+    float: right;
+}
+
+ul li {
+    display: inline;
+    padding: 1em;
+}
+
+.stopka {
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: auto;
+
+}
+
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.btn {
+    background-color: green
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+

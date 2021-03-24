@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+<div class="navbar">
+
+</div>
+	<h2> Kontakt <br></h2>
+
+
+	<div class="container">
+        <div class="row">
+  <div class="col">
+    <label for="inputImie" class="form-label">Imie</label>
+    <input type="text" class="form-control" placeholder="Imie" aria-label="Imie">
+  </div>
+        </div>
+  <div class="col">
+    <label for="inputNazwisko" class="form-label">Nazwisko</label>
+    <input type="text" class="form-control" placeholder="Nazwisko" aria-label="Nazwisko">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Adres</label>
+    <input type="adres" class="form-control" id="inputAddress" placeholder="Podaj adres">
+  </div>
+  <fieldset class="row mb-3">
+    <legend class="col-form-label col-sm-2 pt-0">Wybierz płeć:</legend>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+        <label class="form-check-label" for="gridRadios1">
+          Kobieta
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+          Mężczyzna
+        </label>
+      </div>
+	  </div>
+	  <div class="row g-3">
+  <div class="col-sm-7">
+    <input type="text" class="form-control" placeholder="Miasto" aria-label="Miasto">
+  </div>
+  <div class="col-auto">
+    <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+    <select class="form-select" id="autoSizingSelect">
+      <option selected>Opcje...</option>
+      <option value="1">Opcja1</option>
+      <option value="2">Opcja2</option>
+      <option value="3">Opcja3</option>
+    </select>
+  </div>
+  <div class="col-sm">
+    <input type="text" class="form-control" placeholder="Dodatkowe informacje" aria-label="Zip">
+  </div>
+	</div>
+        </fieldset>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Zaloguj</button>
+  </div>
+<footer class="fot">
+
+   Copyrights &copy; Sławomir Norek | 2021
+
+</footer>
+    </div>
+<div class="scroll">
+   <button class="btn">
+      Do góry
+   </button>
+</div>
+<script src="navbar.js"></script>
+<script src="scroll.js"></script>
+</body>
+</html>
